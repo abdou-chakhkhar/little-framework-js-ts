@@ -1,7 +1,7 @@
 import axios, { AxiosPromise, AxiosResponse } from "axios";
 
 
-interface HasId {
+export interface HasId {
     id?: number;
 }
 
